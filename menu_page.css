@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Tektur:wght@500&display=swap');
+body{
+    font-family: 'Changa', sans-serif;
+    font-size: 18px;
+}
+/* NavBar */
+.container-fluid{
+    height: 90px;
+    background-color: rgb(181, 138, 82);
+    box-shadow: 0px 2px 2px rgb(130, 127, 127);
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+}
+.logo-box{
+    width: 35%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo-box img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.menu-box{
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.menu-box ul li{
+    margin: 20px;
+    display: inline-block;
+    margin-top: 25px;
+    list-style: none;
+}
+.menu-box ul li a{
+    
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Tektur', cursive;
+    color: white;
+}
+
+/* main content */
+.container{
+    width: 1000px;
+    height: fit-content;
+}
+.table {
+    border-bottom:0px !important;
+}
+.table th, .table td {
+    border: 1px !important;
+}
+.table tr {
+    border: 1px !important;
+}
+.fixed-table-container {
+    border:0px !important;
+}
+
+strong{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.drink{
+    height: 450px;
+    background-color: rgb(181, 138, 82);
+    padding: 20px;
+    border-radius: 10px;
+}
+.menu-textbox{
+    width: 100%;
+    height: 30%;
+}
+.menu-imgbox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+.menu-imgbox img{
+    width: 180px;
+    height: 200px;
+    
+    /* object-fit: cover; */
+}
+button{
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    background-color: rgb(185, 141, 85);
+}
+a, h3{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.footer{
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    background-color: rgb(85, 58, 24);
+    width: 100%;
+    height: 250px;
+}
+ul li{
+    list-style: none;
+    padding: 3px;
+}
